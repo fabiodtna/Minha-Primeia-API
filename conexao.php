@@ -1,9 +1,9 @@
 <?php
 
 $host = "localhost";
-$usuario = "id16238932_cliente";
-$senha = "Wclick@2020!" ;
-$bd = "id16238932_wclickbd";
+$usuario = "root";
+$senha = "root" ;
+$bd = "wclickbd";
 
 $strcon = mysqli_connect($host, $usuario, $senha, $bd);
 
