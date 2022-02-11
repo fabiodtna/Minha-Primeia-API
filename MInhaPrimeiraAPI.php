@@ -1,51 +1,6 @@
 
 <?php
  
- /* 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-#                                                                                                 #                                         
-#                                         ,,    ,,                                                #
-# `7MMF'     A     `7MF'        .g8"""bgd `7MM    db           `7MM                               #
-#   `MA     ,MA     ,V        .dP'     `M   MM                   MM                               #       
-#    VM:   ,VVM:   ,V         dM'       `   MM  `7MM   ,p6"bo    MM  ,MP'                         #
-#     MM.  M' MM.  M'         MM            MM    MM  6M'  OO    MM ;Y                            #
-#     `MM A'  `MM A'   mmmm   MM.           MM    MM  8M         MM;Mm                            # 
-#      :MM;    :MM;           `Mb.     ,'   MM    MM  YM.    ,   MM `Mb.                          #
-#       VF      VF              `"bmmmd'  .JMML..JMML. YMbmd'  .JMML. YA.                         #  
-#                                                                                                 #                                       
-#                                                                                                 #                                                           
-#                             .M"""bgd                              'db'                          # 
-#                          `,MI    "Y                                                             #
-#                           `MMb.      .gP"Ya  `7Mb,od8 `7M'   `MF'`7MM   ,p6"bo   .gP"Ya         #
-#                             `YMMNq. ,M'   Yb   MM' "'   VA   ,V    MM  6M'  OO  ,M'   Yb        # 
-#                          .      `MM 8M""""""   MM        VA ,V     MM  8M       8M""""""        #
-#                           Mb     dM YM.    ,   MM         VVV      MM  YM.    , YM.    ,        #
-#                           P"Ybmmd"   `Mbmmd' .JMML.        W     .JMML. YMbmd'   `Mbmmd'        #
-#                                                                                                 #                                       
-#                                                                                                 #                                       
-#                                     by: Ghost-Ralph                                             #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-*/
-
-
-
-// importante apagar dps de tudo 
-/*
-                // resultado da consulta no banco de dados
-                
-                $resultado = mysqli_query($strcon,$sql) or die("Erro ao retornar dados");
-
-                // trazer uma linha especifica id /  nm_estado / sg_estado
-               
-                echo $linha['id'];
-                echo $linha['nm_estado'];
-                echo $linha['sg_estado'];
-                
-
-                // transforma o resultado em json 
-                echo json_encode($linha);
-
-*/
 
 header("Access-Control-Allow-Origin: *");
 header("Content-type: application/json");
